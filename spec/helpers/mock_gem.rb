@@ -1,7 +1,7 @@
 # typed: strict
 # frozen_string_literal: true
 
-require "helpers/mock_dir"
+require_relative "mock_dir"
 
 module Tapioca
   # A mock gem used for testing purposes

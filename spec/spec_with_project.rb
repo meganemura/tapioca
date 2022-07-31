@@ -1,7 +1,7 @@
 # typed: strict
 # frozen_string_literal: true
 
-require "helpers/mock_project"
+require_relative "helpers/mock_project"
 
 module Tapioca
   class SpecWithProject < Minitest::HooksSpec

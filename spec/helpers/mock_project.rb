@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require "open3"
-require "helpers/mock_gem"
+require_relative "mock_gem"
 
 module Tapioca
   # A mock project used for testing purposes
